@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+
 .navbar{
   background-color: #002930;
 }
@@ -70,4 +72,19 @@
   }
 }
 
+.banner-header{
+  width: 100%;
+  height: 300px;
+  background-color: #ffeddf;
+}
+
+.banner-header h3{
+  font-family: "Rethink Sans", sans-serif;
+  font-weight: 700;
+}
+
+.img-banner{
+  position: absolute;
+  right: 0;
+}
 
