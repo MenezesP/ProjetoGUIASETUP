@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ropa+Sans:ital@0;1&display=swap');
+
+@import url('/assets/css/global/nav-bar.css');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.card{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  font-family: "Ropa Sans", sans-serif;
+}
+
+.bi-envelope, .bi-chat{
+  font-size: 3rem;
+  color: #AC4A00;
+}
+
+#button-msg{
+  color: white;
+  background-color: #AC4A00;
+  border: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+th {
+  background-color: #002930;
+  color: white;
+}

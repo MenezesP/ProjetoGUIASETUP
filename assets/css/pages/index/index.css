@@ -4,133 +4,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ropa+Sans:ital@0;1&display=swap');
 
+@import url('/assets/css/global/nav-bar.css');
+
 *{
   padding: 0;
   margin: 0;
 }
-
-/* BARRA DE NAVEGAÇÃO*/
-.navbar{
-  height: 27vh;
-  background-color: #002930;
-}
-
-.navbar-brand img{
-  width: 120px;
-}
-
-.navbar .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
-}
-
-.navbar-center {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-
-#icon-menu-navbar{
-  font-size: 3rem;
-  color: white;
-}
-
-.user-navbar{
-  position: absolute;
-  right: 0;
-}
-
-#icon-user-navbar{
-  font-size: 3rem;
-  color: white;
-}
-
-.dropdown-content {
-  display: none;
-  background-color: #002930;
-  height: 60%;
-  width: 40%;
-  z-index: 100;
-}
-
-.dropdown-content a {
-  color: white;
-  text-decoration: none;
-  padding: 2px;
-  transition: background 0.3s ease-in-out;
-}
-
-.dropdown-content ul{
-  list-style: none;
-}
-
-.dropdown-content a:hover {
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 5px;
-}
-
-.overlay-menu{
-  display: none;
-  background-color: rgba(0, 0, 0, 0.5); 
-  z-index: 99;
-}
-
-.text-menu{
-  font-family: "Ropa Sans", sans-serif;
-  left: 15%;
-  font-size: 20px;
-}
-
-@media (max-width: 1024px) {
-  .text-menu{
-    font-family: "Ropa Sans", sans-serif;
-    left: 20%;
-    font-size: 20px;
-  }
-  .navbar-brand img{
-    width: 90px;
-  }
-}
-
-@media (max-width: 480px) {
-  .text-menu{
-    font-family: "Ropa Sans", sans-serif;
-    left: 10%;
-    font-size: 15px;
-  }
-  .dropdown-content{
-    height: 60%;
-    width: 65%;
-  }
-  #icon-menu-navbar{
-    font-size: 2.5rem;
-  }
-  #icon-user-navbar{
-    font-size: 2.5rem;
-  }
-  .navbar-brand img{
-    width: 80px;
-  }
-}
-
-.button-login{
-  background: #AC4A00;
-  color: white;
-  padding: 0.5rem 5rem 0.5rem 5rem;
-}
-
-
-.show{
-  display: block;
-}
-
-/* BARRA DE NAVEGAÇÃO*/
 
 .banner-header {
     height: 500px;
@@ -156,6 +35,7 @@
 .text-banner{
   flex: 1;
   text-align: left;
+  padding-left: 0.5rem;
 }
 
 @media (max-width: 768px) {
@@ -166,6 +46,9 @@
   }
   #carouselExampleSlidesOnly {
     width: 75% !important;
+  }
+  .search-bar{
+    max-width: 200px;
   }
 }
 
