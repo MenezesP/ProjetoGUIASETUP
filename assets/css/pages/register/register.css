@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ropa+Sans:ital@0;1&display=swap');
+
+* {
+  font-family: "Ropa Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#button-back{
+  top: 8%;
+  font-size: 2.5rem;
+}
+
+.logo-header img{
+  width: 8rem;
+  height: 8rem;
+}
+
+.content{
+  height: 250px;
+}
+
+.text-divisor{
+  background-color: white;
+  width: 7rem;
+}
+
+.divisor{
+  height: 2px; 
+  background-color: rgb(194, 194, 194);
+}
+
+.text-content{
+  color: #AC4A00;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.register-alternative{
+  font-family: "Roboto", sans-serif;
+  color: red;
+  border: 1px solid red;
+  cursor: pointer;
+}
+
+.bi-google, .bi-apple{
+  font-size: 33px;
+}
+
+#button-apple{
+  border-color: black;
+  color: black;
+}
+
+.button-send{
+  background-color: #AC4A00;
+  color: white;
+}
+
+.text-content-2 a{
+  color: #AC4A00;
+  text-decoration: none;
+}
+
+.footer{
+  margin-top: 300px;
+  background-color: #002930;
+}
+
+.footer img{
+  width: 8rem;
+  height: 8rem;
+}
