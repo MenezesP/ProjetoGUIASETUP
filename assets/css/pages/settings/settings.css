@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ropa+Sans:ital@0;1&display=swap');
+
+@import url('/assets/css/global/nav-bar.css');
+
+* {
+    font-family: "Ropa Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bi-arrow-left{
+    color: #AC4A00;
+}
+
+.card-custom {
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-custom i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    color: #AC4A00;
+}
+
+.btn-custom {
+    background-color: #AC4A00;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+
+.card-custom:hover{
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.switch {
+    transform: scale(1.5);
+}
