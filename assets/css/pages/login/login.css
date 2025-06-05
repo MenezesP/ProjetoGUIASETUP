@@ -227,7 +227,7 @@
 }
 
 .forgot-password-screen{
-  display: block;
+  display: none;
   position: fixed;
   left: 50%;
   top: 50%;
@@ -330,6 +330,10 @@
     font-size: 20px;
   }
 
+  .form-f-p{
+    width: 80%;
+  }
+
   .info h3{
     font-size: 1.2rem;
   }
@@ -372,6 +376,14 @@
 
   .button-send{
     width: 75%;
+  }
+
+  .button-forgotpassword{
+    margin-bottom: 1rem;
+  } 
+
+  .form-f-p{
+    width: 80%;
   }
 
   .info h3{
